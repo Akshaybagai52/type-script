@@ -1,3 +1,7 @@
-let age: number = 20;
-if(age < 50) 
-    console.log(age)
+let sales: number = 1232331;
+let course: string = "type";
+const render = (document: any) => {
+    console.log(document)
+}
+
+let numbers: number[] = ["4", 1]
