@@ -4,4 +4,8 @@ const render = (document: any) => {
     console.log(document)
 }
 
-let numbers: number[] = ["4", 1]
+let numbers: number[] = [2, 1]
+
+const enum Size {Small, Medium, Large}
+let mySize: Size = Size.Medium;
+console.log(mySize)
